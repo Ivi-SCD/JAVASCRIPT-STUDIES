@@ -8,4 +8,4 @@ console.log("Fuel Price: ", priceFuel, " | Distance traveled: ",
  distanceKm, " | Km/L: ", fuelPerKm);
 
 console.log("The value total of this travel is: ", 
-(distanceKm/fuelPerKm)*priceFuel);
+((distanceKm/fuelPerKm)*priceFuel).toFixed(2));
